@@ -1,0 +1,43 @@
+# No IP address mapping (0.0.0.0 123.123.12.3) and
+# no wildcards (*pricegrabber.com). This WILL NOT work.
+# Run [el] to read changes into Dnsmasq.
+# Add blacklisted domains as follows, without the leading #.
+# 0.0.0.0 pricegrabber.com
+# 0.0.0.0 www.pricegrabber.com
+127.0.0.1 seasontoshare.com
+127.0.0.1 pespn.chartbeat.net
+#! 127.0.0.1 turner-tls.map.fastly.net
+127.0.0.1 map.fastly.net
+127.0.0.1 fastly.net
+127.0.0.1 ping.chartbeat.net
+127.0.0.1 w.usabilla.com
+#! 127.0.0.1 prod.turner-tls.map.fastly.net
+127.0.0.1 www.summerhamster.com
+127.0.0.1 dualstack.log-334788911.us-east-1.elb.amazonaws.com
+127.0.0.1 s.gravatar.com
+127.0.0.1 gravatar.com
+127.0.0.1 pancake.apple.com
+127.0.0.1 dpm.demdex.com
+127.0.0.1 o.aolcdn.com #engadget
+127.0.0.1 spot.im #engadget
+127.0.0.1 recirculation.spot.im
+127.0.0.1 www.spot.im
+127.0.0.1 apis.google.com #legitreviews may be too much
+127.0.0.1 platform-api.sharethis.com
+127.0.0.1 www.googletagservices.com
+127.0.0.1 finance.services.appex.bing.com #not sure what this is
+127.0.0.1 www-googletagmanager.l.google.com #some shit from a download website
+127.0.0.1 cf.iadsdk.apple.com
+127.0.0.1 usc.adserver.snapads.com #snapchat
+127.0.0.1 app-analytics.snapchat.com #snapchat
+127.0.0.1 settings.crashlytics.com #gpskit
+127.0.0.1 star.c10r.facebook #rhapsody
+127.0.0.1 5-6-8-ios.userflows.ingest.crittercism.com #rhapsody
+127.0.0.1 5-6-8-ios.appload.ingest.crittercism.com #rhapsody
+127.0.0.1 md-i-c.apptimize.com #rhapsody
+127.0.0.1 dev.appboy.com #rhapsody
+127.0.0.1 api.branch.io #rhapsody
+127.0.0.1 brahe.apptimize.com #rhapsody
+127.0.0.1 feelinsonice-mvm.l.google.com #snapchat shit
+127.0.0.1 appspot-preview.l.google.com #snapchat
+127.0.0.1 feelinsonice.l.google.com #snapchat shit
